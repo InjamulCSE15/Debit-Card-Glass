@@ -57,3 +57,38 @@ body{
     transform: skew(-200deg) translateX(-130%);
 }
 /* Hover Animation End */
+
+.bank-name {
+    text-align: end;
+}
+
+.sim-chip {
+    width: 40px;
+    height: 35px;
+    /* Default */
+    /* position: relative;
+    top: -26px; */
+}
+
+.card-number {
+    position: relative;
+    top: 25px;
+    left: 5px;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+}
+
+.card-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: 45px;
+    font-size: 18px;
+    padding: 0 2.5px;
+}
+
+
+.visa-logo {
+    width: 50px;
+}
