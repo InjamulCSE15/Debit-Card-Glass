@@ -9,16 +9,17 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: var(--white);
-    font-family: 'Outfit', sans-serif;
-}
-
-.container {
-    height: 100vh;
     background-image: url(img/bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    color: var(--white);
+    font-family: 'Outfit', sans-serif;
+    height: 100vh;
+}
+
+.container {  
+    height: 90vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -90,4 +91,18 @@ body{
 
 .visa-logo {
     width: 50px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background: transparent;
+    top: 70px;
+}
+
+footer p {
+    font-size: 18px;
+    color: black;
 }
